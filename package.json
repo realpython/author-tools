@@ -6,7 +6,7 @@
         "Python", 
         "Snippets"
     ],
-    "version": "1.0.0",
+    "version": "2018.10.0",
     "publisher": "RealPython",
     "engines": {
         "vscode": "^1.28.0"
