@@ -13,7 +13,7 @@
 		"scope": "markdown",
 		"prefix": "rpcodeline",
 		"body": [
-			"```${1|python,python2,pycon,pyreq,pytb,pytb2,text,html,htmldjango,css,js,json,console,doscon,sh,dockerfile,csv,sql,yaml,ini|} linenum=\"${2:1}\"",
+			"```${1|python,python2,pycon,pyreq,pytb,pytb2,text,html,htmldjango,css,js,json,console,doscon,sh,dockerfile,csv,sql,yaml,ini|} linenums=\"${2:1}\"",
 			"${3:code}",
 			"```"
 		],
@@ -23,7 +23,7 @@
 		"scope": "markdown",
 		"prefix": "rpcodehl",
 		"body": [
-			"```${1|python,python2,pycon,pyreq,pytb,pytb2,text,html,htmldjango,css,js,json,console,doscon,sh,dockerfile,csv,sql,yaml,ini|} hl_lines=\"${2:1,2,3}\"",
+			"```${1|python,python2,pycon,pyreq,pytb,pytb2,text,html,htmldjango,css,js,json,console,doscon,sh,dockerfile,csv,sql,yaml,ini|} hl_lines=\"${2:1 2 3}\"",
 			"${3:code}",
 			"```"
 		],
@@ -33,7 +33,7 @@
 		"scope": "markdown",
 		"prefix": "rpcodeall",
 		"body": [
-			"```${1|python,python2,pycon,pyreq,pytb,pytb2,text,html,htmldjango,css,js,json,console,doscon,sh,dockerfile,csv,sql,yaml,ini|} linenum=\"${2:1}\" hl_lines=\"${3:1,2,3}\"",
+			"```${1|python,python2,pycon,pyreq,pytb,pytb2,text,html,htmldjango,css,js,json,console,doscon,sh,dockerfile,csv,sql,yaml,ini|} linenums=\"${2:1}\" hl_lines=\"${3:1 2 3}\"",
 			"${4:code}",
 			"```"
 		],
@@ -42,19 +42,19 @@
 	"Simple Image": {
 		"scope": "markdown",
 		"prefix": "rpimg",
-		"body": "{% img '${1:img_name} %}",
+		"body": "{% img '${1:img_name}' %}",
 		"description": "Creat a basic Image block"
 	},
 	"Image With Common Attributes": {
 		"scope": "markdown",
 		"prefix": "rpimgatr",
-		"body": "{% img '${1:img_name} centered=${2|True,False|} class='${3|w-50,w-25,w-33,w-66|} %}",
+		"body": "{% img '${1:img_name}' centered=${2|True,False|} class='${3|w-50,w-25,w-33,w-66|}' %}",
 		"description": "Create an Image with the most common attributes"
 	},
 	"Image With All Attributes": {
 		"scope": "markdown",
 		"prefix": "rpimgall",
-		"body": "{% img '${1:img_name} centered=${2|True,False|} class='${3|w-50,w-25,w-33,w-66|} caption=\"${4:...}\" attribution_url=${5:\"https://...\"} attribution=${6:\"Jane Doe\"} border=${7:|False,True|} zoom=${8:|False,True|} link_url=${9:\"https://...\"} %}",
+		"body": "{% img '${1:img_name}' centered=${2|True,False|} class='${3|w-50,w-25,w-33,w-66|}' caption=\"${4:...}\" attribution_url=\"${5:https://...}\" attribution=\"${6:Jane Doe}\" border=${7|False,True|} zoom=${8|False,True|} link_url=\"${9:https://...}\" %}",
 		"description": "Create an Image with all of the attributes"
 	},
 	"File Directory Example" : {
