@@ -1,26 +1,47 @@
 {
-    "name": "real-python-snippets",
-    "displayName": "Real Python Snippets",
-    "description": "A snippet extension to help Real Python Bloggers",
-    "keywords": [
-        "Python", 
-        "Snippets"
-    ],
+    "name": "author-tools",
+    "displayName": "author-tools",
+    "description": "A collection of tools to help writers for the Real Python Blog",
     "version": "2018.10.0",
     "publisher": "RealPython",
     "engines": {
         "vscode": "^1.28.0"
     },
     "categories": [
-        "Snippets"
+        "Snippets",
+        "Other"
     ],
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "main": "./out/extension",
     "contributes": {
+        "commands": [
+            {
+                "command": "extension.sayHello",
+                "title": "Real Python: Hello World"
+            }
+        ],
         "snippets": [
             {
                 "language": "markdown",
-                "path": "./snippets/markdown.json"
+                "path": "./snippets/markdown.code-snippets"
             }
         ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
     },
     "repository": {
         "type": "git",

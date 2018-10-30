@@ -2,7 +2,7 @@
 
 This is a Visual Studio Code extension with a set of tools that will help authors for the Real Python blog.  
 
-open an issue on the [repo here](https://github.com/realpython/rp-tools).
+open an issue on the [repo here](https://github.com/realpython/author-tools).
 
 ## Setup
 
