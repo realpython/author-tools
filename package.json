@@ -1,0 +1,30 @@
+{
+    "name": "real-python-snippets",
+    "displayName": "Real Python Snippets",
+    "description": "A snippet extension to help Real Python Bloggers",
+    "keywords": [
+        "Python", 
+        "Snippets"
+    ],
+    "version": "1.0.0",
+    "publisher": "RealPython",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/realpython/author-tools"
+    },
+    "homepage": "https://github.com/realpython/author-tools/README.md"
+}
