@@ -1,9 +1,9 @@
 {
     "name": "author-tools",
     "displayName": "author-tools",
-    "description": "A collection of tools to help writers for the Real Python Blog",
+    "description": "A collection of tools to help writers for realpython.com",
     "version": "2018.10.0",
-    "publisher": "RealPython",
+    "publisher": "realpython",
     "engines": {
         "vscode": "^1.28.0"
     },
@@ -47,5 +47,6 @@
         "type": "git",
         "url": "https://github.com/realpython/author-tools"
     },
-    "homepage": "https://github.com/realpython/author-tools/README.md"
+    "homepage": "https://github.com/realpython/author-tools/README.md",
+    "icon": "real-python-logo-round.png"
 }
