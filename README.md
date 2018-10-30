@@ -14,7 +14,7 @@ Works best with `editor.tabCompletion` enabled (`on`) in your VS Code `Settings`
 
 ## Snippet Usage
 
-Simply type `rp` to start using any of the snippets. The full documentation is below.
+To access the list of snippets, use the `ctrl+Space` ande then simply type `rp` to start using any of the snippets. The full list of snippets is below.
 
 This extension works best with `editor.tabCompletion` enabled (`on`) in your VS Code `Settings`.
 
@@ -23,8 +23,6 @@ This extension works best with `editor.tabCompletion` enabled (`on`) in your VS 
 The full changelog can be found [here](CHANGELOG.md).
 
 ## Documentation
-
-See the tables below for a list of the snippets. The `*` denotes where the cursor will start so you can start typing your variables etc. straight the way without wasting key strokes! A `*2` denotes the second position upon hitting the `tab` key again.
 
 ### General Snippets
 
