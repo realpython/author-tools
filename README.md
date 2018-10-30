@@ -51,6 +51,8 @@ The full changelog can be found [here](CHANGELOG.md).
 
 ## Future Development
 
-- [ ] Create Quiz Tools
+- [ ] Create Quiz Snippets
+- [ ] Add command to create new post template
+- [ ] Possibly Spelling/Grammar support
 
 ---
