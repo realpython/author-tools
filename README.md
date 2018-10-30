@@ -54,5 +54,7 @@ The full changelog can be found [here](CHANGELOG.md).
 - [ ] Create Quiz Snippets
 - [ ] Add command to create new post template
 - [ ] Possibly Spelling/Grammar support
+- [ ] Add command to upload changes to CMS
+- [ ] Add command to create new article (Git & CMS)
 
 ---
