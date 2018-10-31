@@ -1,8 +1,8 @@
 # Real Python Author Tools
 
-This is a Visual Studio Code extension with a set of tools that will help authors for the Real Python blog.  
+This is a Visual Studio Code extension with a set of tools that will help authors for [realpython.com](https://realpython.com)
 
-open an issue on the [repo here](https://github.com/realpython/author-tools).
+Open an issue on the [repo here](https://github.com/realpython/author-tools).
 
 ## Setup
 
