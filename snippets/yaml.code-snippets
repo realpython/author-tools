@@ -1,0 +1,79 @@
+{
+	"Text Input Question": {
+		"scope": "yaml",
+		"prefix": "rqtext",
+		"body": [
+            "  - type: TextInputQuestion",
+            "    title: \"Direct Question\"",
+            "    stem: |",
+            "      ${1:question}",
+            "    answers:",
+            "      - ${2:answers}",
+            "    hint: |",
+            "      ${3:hint}",
+            "    explanation: |",
+            "      ${4:explanation}",
+		],
+		"description": "Creates a Text Input Question"
+    },
+    "Select One Question": {
+        "scope": "yaml",
+        "prefix": "rqselect",
+        "body": [
+            "  - type: SelectOneQuestion",
+            "    title: \"${1:title}\"",
+            "    stem: |",
+            "      ${2:question}",
+            "    answers:",
+            "      - \"${3:answers}\"",
+            "    distractors:",
+            "      - \"${4:distractors}\"",
+            "    hint: |",
+            "      ${5:hint}",
+            "    explanation: |",
+            "      ${6:explanation}"
+        ],
+        "description": "Creates a Select One Question"
+    },
+    "Select Multiple Question": {
+        "scope": "yaml",
+        "prefix": "rqmulti",
+        "body": [
+            "  - type: SelectMultipleQuestion",
+            "    title: \"${1:title}\"",
+            "    stem: |",
+            "      ${2:question}",
+            "    hint: |",
+            "      ${3:hint}",
+            "    answers:",
+            "      - \"${4:answer}\"",
+            "    distractors:",
+            "      - \"${5:distractors}\"",
+            "    explanation: |",
+            "      ${6:explanation}"
+        ],
+        "description": "Creates a Select Multi Question"
+    },
+    "Python Code Question": {
+        "scope": "yaml",
+        "prefix": "rqcode",
+        "body": [
+            "  - type: PythonCodeQuestion",
+            "    title: \"${1:title\"",
+            "    stem: |",
+            "      ${2:Question}",
+            "    answer_template: |",
+            "      ${3:AnswerTemplate}",
+            "    setup_code: |",
+            "      ${4:SetupCode}",
+            "    test_code: |",
+            "      ${5:TestCode}",
+            "    correct_answer: |",
+            "      ${6:Answer}",
+            "    hint: |",
+            "      ${7:Hint}",
+            "    explanation: |",
+            "      ${Explanation}"
+        ]
+    }
+}
