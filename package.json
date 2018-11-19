@@ -26,6 +26,10 @@
             {
                 "language": "markdown",
                 "path": "./snippets/markdown.code-snippets"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/yaml.code-snippets"
             }
         ]
     },
