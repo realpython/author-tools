@@ -43,7 +43,7 @@ The full changelog can be found [here](CHANGELOG.md).
 | `rpexercise` | adds an exercise block                                      |
 | `rpquote`    | adds a quote block                                          |
 
-### Quotes Snippets
+### Quizzes Snippets
 
 | Prefix     | Output                                           |
 | ---------- | ------------------------------------------------ |

@@ -14,6 +14,10 @@ Added the following snippets:
 - Exercise Boxes
 - Quote
 
+## [v2018.12.0]
+
+Added quizzes snippets!
+
 ---
 
 ### Happy coding!
