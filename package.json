@@ -2,7 +2,7 @@
     "name": "author-tools",
     "displayName": "author-tools",
     "description": "A collection of tools to help writers for realpython.com",
-    "version": "2018.10.0",
+    "version": "2018.12.0",
     "publisher": "realpython",
     "engines": {
         "vscode": "^1.28.0"

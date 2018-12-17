@@ -43,15 +43,24 @@ The full changelog can be found [here](CHANGELOG.md).
 | `rpexercise` | adds an exercise block                                      |
 | `rpquote`    | adds a quote block                                          |
 
+### Quotes Snippets
+
+| Prefix     | Output                                           |
+| ---------- | ------------------------------------------------ |
+| `rqtext`   | adds a text input question block                 |
+| `rqselect` | adds a multi-choice single answer question block |
+| `rqmulti`  | adds a multi-choice multi-answer question block  |
+| `rqcode`   | adds a python based answer question block        |
+
 ## Release Notes
 
-### 2018.10.0
+### 2018.12.0
 
-- Initial release
+- Added in the Quiz Snippets
 
 ## Future Development
 
-- [ ] Create Quiz Snippets
+- [x] Create Quiz Snippets
 - [ ] Add command to create new post template
 - [ ] Possibly Spelling/Grammar support
 - [ ] Add command to upload changes to CMS
